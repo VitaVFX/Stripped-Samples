@@ -11,13 +11,13 @@ C:\Program Files\Unity\2021.2.10f1_ee872746220e\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/vita.skruibyte/Documents/Projects/VisualEffectGraph-Samples
+C:/Users/vita.skruibyte/Desktop/Stripped-Samples
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-53655
-Successfully changed project path to: C:/Users/vita.skruibyte/Documents/Projects/VisualEffectGraph-Samples
-C:/Users/vita.skruibyte/Documents/Projects/VisualEffectGraph-Samples
+53121
+Successfully changed project path to: C:/Users/vita.skruibyte/Desktop/Stripped-Samples
+C:/Users/vita.skruibyte/Desktop/Stripped-Samples
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,11 +47,11 @@ C:/Users/vita.skruibyte/Documents/Projects/VisualEffectGraph-Samples
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 85.41 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 85.93 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.10f1 (ee872746220e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/2021.2.10f1_ee872746220e/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/vita.skruibyte/Documents/Projects/VisualEffectGraph-Samples/Assets
+[Subsystems] Discovering subsystems at path C:/Users/vita.skruibyte/Desktop/Stripped-Samples/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -63,37 +63,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/2021.2.10f1_ee872746220e/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/2021.2.10f1_ee872746220e/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/2021.2.10f1_ee872746220e/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/2021.2.10f1_ee872746220e/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003357 seconds.
+Registered in 0.003036 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 79.60 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 65.61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.630 seconds
+- Completed reload, in  0.579 seconds
 Domain Reload Profiling:
-	ReloadAssembly (631ms)
-		BeginReloadAssembly (70ms)
+	ReloadAssembly (579ms)
+		BeginReloadAssembly (64ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (471ms)
-			LoadAssemblies (68ms)
+		EndReloadAssembly (442ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (104ms)
+			SetupTypeCache (114ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (279ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (254ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (80ms)
+				RefreshPlugins (66ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadAttributes (133ms)
 				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -101,49 +101,49 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002246 seconds.
+Registered in 0.002206 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 94.31 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 111.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.344 seconds
+- Completed reload, in  1.386 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1345ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (1387ms)
+		BeginReloadAssembly (139ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (1150ms)
-			LoadAssemblies (65ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1151ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (212ms)
+			SetupTypeCache (228ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (759ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (717ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (94ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (504ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (442ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4077 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (3.8 MB). Loaded Objects now: 4531.
-Memory consumption went from 237.5 MB to 233.6 MB.
-Total: 5.299200 ms (FindLiveObjects: 0.481200 ms CreateObjectMapping: 0.297200 ms MarkObjects: 3.512900 ms  DeleteObjects: 1.006500 ms)
+Unloading 4027 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (3.8 MB). Loaded Objects now: 4482.
+Memory consumption went from 231.4 MB to 227.5 MB.
+Total: 5.043100 ms (FindLiveObjects: 0.463500 ms CreateObjectMapping: 0.249400 ms MarkObjects: 3.352900 ms  DeleteObjects: 0.975800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -157,209 +157,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1102493.083533 seconds.
-  path: Assets/Samples/GrassWind/Grass.vfx
-  artifactKey: Guid(65fa6e56e3e53cd44aac3bf1e314abf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind/Grass.vfx using Guid(65fa6e56e3e53cd44aac3bf1e314abf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd309cfb937f5095c77e69cbb7f4131') in 2.692700 seconds 
+  Time since last request: 1108463.703950 seconds.
+  path: Assets/Samples/GrassWind/GrassWind.asset
+  artifactKey: Guid(0d8320dd16c3e6345a96cb531f7cb6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/GrassWind/GrassWind.asset using Guid(0d8320dd16c3e6345a96cb531f7cb6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c96b8e400419a661ba45e99d0051ed1') in 0.121819 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.188273 seconds.
-  path: Assets/Samples/GrassWind/Grass1.vfx
-  artifactKey: Guid(7fc2fd9ef8e4f524aab26ac1198ec24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind/Grass1.vfx using Guid(7fc2fd9ef8e4f524aab26ac1198ec24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f84187114766d5c64330aeeebd764e7') in 0.788928 seconds 
+  Time since last request: 0.000030 seconds.
+  path: Assets/Samples/GrassWind/GrassWind_SceneSettings.asset
+  artifactKey: Guid(27b2b37e9dc9b2446acbda209450a2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/GrassWind/GrassWind_SceneSettings.asset using Guid(27b2b37e9dc9b2446acbda209450a2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84834f9f8d693d7d605d5ad835906e20') in 0.016271 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.351865 seconds.
-  path: Assets/Samples/GrassWind/GrassWind.unity
-  artifactKey: Guid(61f1ef70099d9034881b5619b161a5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind/GrassWind.unity using Guid(61f1ef70099d9034881b5619b161a5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d5bffaea047204c4b53ab14416459e') in 0.002421 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.006243 seconds.
-  path: Assets/Samples/Common/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidCrouch.fbx
-  artifactKey: Guid(d89ea37480b6d75458aa38843e9688dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Common/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidCrouch.fbx using Guid(d89ea37480b6d75458aa38843e9688dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9330ca4700ab327a428a2581948361e1') in 0.053017 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Samples/GrassWind/TerrainMaterials/Terrain.mat
-  artifactKey: Guid(2fe713f1a6a8ca742a25b457ed2dcd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind/TerrainMaterials/Terrain.mat using Guid(2fe713f1a6a8ca742a25b457ed2dcd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e072ca68baf0e70bc01a9870eebccf') in 0.551471 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Volume/Icons/VolumeProfileAsset.png
-  artifactKey: Guid(f20112bdeec2e8d4d9f80e8390e37263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Volume/Icons/VolumeProfileAsset.png using Guid(f20112bdeec2e8d4d9f80e8390e37263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc61b42d744c7117123d0ac1c48e0410') in 0.035912 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Samples/Common/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidMidAir.fbx
-  artifactKey: Guid(f03e10c73f30b4ab4aa8ea8f1cc16d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Common/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidMidAir.fbx using Guid(f03e10c73f30b4ab4aa8ea8f1cc16d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84e3392ca00f2413462f0f12fae67c9') in 0.012488 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Samples/Common/Standard Assets/Characters/ThirdPersonCharacter/Models/Ethan.fbx
-  artifactKey: Guid(b235179bd2a63d1468dd430670338c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Common/Standard Assets/Characters/ThirdPersonCharacter/Models/Ethan.fbx using Guid(b235179bd2a63d1468dd430670338c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745fc212c91a6890b653aebb4bf68ede') in 0.909219 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Samples/Common/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurn.fbx
-  artifactKey: Guid(1c52c953c83c2254a9fa72d50250f028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Common/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurn.fbx using Guid(1c52c953c83c2254a9fa72d50250f028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8b7a1c9395c37590819a46f55829ec') in 0.022515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Samples/Common/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanGrey_MaskMap.png
-  artifactKey: Guid(4271d6052f68d4f4e991647504fe3255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Common/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanGrey_MaskMap.png using Guid(4271d6052f68d4f4e991647504fe3255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5883996ac25e5a97a60ad27abb4b37f') in 0.024061 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Samples/GrassWind/TerrainMaterials/ScatteredStones.terrainlayer
-  artifactKey: Guid(1d79efaaac59667449515e2295edc8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind/TerrainMaterials/ScatteredStones.terrainlayer using Guid(1d79efaaac59667449515e2295edc8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31bb2abda1ee4d2ffa35c35e333e8ccd') in 0.030834 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Samples/GrassWind/Textures/TerrainHeight.tga
-  artifactKey: Guid(16db9489bc8a09d49b862f24c2f73ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind/Textures/TerrainHeight.tga using Guid(16db9489bc8a09d49b862f24c2f73ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f644d1b3f56db8edfc8479efbaf44c54') in 0.022457 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Samples/GrassWind/Textures/FloorSticks_olsgr/FloorSticks_olsgr_Normal.tif
-  artifactKey: Guid(5d5f1fadf129f534ea4171d9d3d96340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind/Textures/FloorSticks_olsgr/FloorSticks_olsgr_Normal.tif using Guid(5d5f1fadf129f534ea4171d9d3d96340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72c1f08fabe846f7ca77bfb159260d2') in 0.019649 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Samples/GrassWind/Textures/Grass_Dried_omgra0/Grass_Dried_omgra0_Albedo.tif
-  artifactKey: Guid(f9938834d116e9646b7884cc8cb33e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind/Textures/Grass_Dried_omgra0/Grass_Dried_omgra0_Albedo.tif using Guid(f9938834d116e9646b7884cc8cb33e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c48daffb7be4cf4709f986ed303873') in 0.024528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Samples/GrassWind/GrassWind/LightingData.asset
-  artifactKey: Guid(82f856227ad158440addbe315b0243d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind/GrassWind/LightingData.asset using Guid(82f856227ad158440addbe315b0243d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0325cf3be72c53b6a0412854b5b772') in 0.007514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Samples/Common/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanWhite_MaskMap.png
-  artifactKey: Guid(c47037f6c4ac5514581c63dd1ef92869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Common/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanWhite_MaskMap.png using Guid(c47037f6c4ac5514581c63dd1ef92869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c671c34f34e1346370eb1f69e94fd731') in 0.021892 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Samples/GrassWind/Textures/Grass01_N.tga
-  artifactKey: Guid(826afbce2a8dec744b7bd9857706f033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind/Textures/Grass01_N.tga using Guid(826afbce2a8dec744b7bd9857706f033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97e04990ae50eea9c4b0c54d4809747') in 0.014376 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Samples/GrassWind/Textures/Grass_Dried_omgra0/Grass_Dried_omgra0_MaskMap.tif
-  artifactKey: Guid(4f924fd63af490d48be6fd0be37b2f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind/Textures/Grass_Dried_omgra0/Grass_Dried_omgra0_MaskMap.tif using Guid(4f924fd63af490d48be6fd0be37b2f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330b491af0697cc7dcbd7eb55add7974') in 0.013702 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Samples/GrassWind/GrassWind/ReflectionProbe-0.exr
-  artifactKey: Guid(4464734821116cd4391e0a6a0328b0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind/GrassWind/ReflectionProbe-0.exr using Guid(4464734821116cd4391e0a6a0328b0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb593b5745009a715a90bca232c30c5') in 0.039690 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Samples/Common/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurnSharp.fbx
-  artifactKey: Guid(bb141fc9a700c9c4ca7e6dadb8acf24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Common/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurnSharp.fbx using Guid(bb141fc9a700c9c4ca7e6dadb8acf24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b177dcc7b1f10c7ca8362c924dc44e27') in 0.017725 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Samples/GrassWind/Textures/FloorSticks_olsgr/FloorSticks_olsgr_Maskmap.tif
-  artifactKey: Guid(2c73719b7ebb6cf43a7dc6be57574d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind/Textures/FloorSticks_olsgr/FloorSticks_olsgr_Maskmap.tif using Guid(2c73719b7ebb6cf43a7dc6be57574d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223324502396858bac9eaf4dc45a5a60') in 0.017002 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Samples/GrassWind/Textures/Grass01.psd
-  artifactKey: Guid(b2eb562a4180b674680ef2476f41cda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind/Textures/Grass01.psd using Guid(b2eb562a4180b674680ef2476f41cda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acaa8168708492989887d5fc83ce87e4') in 0.015344 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Samples/Common/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurn.fbx
-  artifactKey: Guid(1062212255550964e974f3ffb3cbaae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Common/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurn.fbx using Guid(1062212255550964e974f3ffb3cbaae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512be727604c7345e4c1ee0514c07ab5') in 0.027446 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Samples/Common/Standard Assets/Characters/ThirdPersonCharacter/Materials/Ethan.mat
-  artifactKey: Guid(b4f973ec86e228448ad81cf249a888b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Common/Standard Assets/Characters/ThirdPersonCharacter/Materials/Ethan.mat using Guid(b4f973ec86e228448ad81cf249a888b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f2feb60ef14b3c0a0cc8f03075e07b') in 0.048094 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Samples/Common/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanGrey.mat
-  artifactKey: Guid(621e901dcf5ebaf46bce29d18f67194c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Common/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanGrey.mat using Guid(621e901dcf5ebaf46bce29d18f67194c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507d207d9738b77165e27325c73b7c7a') in 0.569004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Samples/GrassWind/Textures/ScatteredStones_rmsih0p/ScatteredStones_rmsih0p_MaskMap.tif
-  artifactKey: Guid(9d45883eb3c12074b9175bc8e6550875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind/Textures/ScatteredStones_rmsih0p/ScatteredStones_rmsih0p_MaskMap.tif using Guid(9d45883eb3c12074b9175bc8e6550875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4f2222d989e626be12d0ed221c8436') in 0.015419 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Samples/GrassWind/TerrainMaterials/Grass.terrainlayer
-  artifactKey: Guid(0c06b9b2888e8044e99e003f239b2ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind/TerrainMaterials/Grass.terrainlayer using Guid(0c06b9b2888e8044e99e003f239b2ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609e7d5b40a53fe18d2385b9a2360af0') in 0.019347 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Samples/Common/Textures/Wispy03b_Thicker_N.tga
-  artifactKey: Guid(1ea102c0375a133428a21a6feb932759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Common/Textures/Wispy03b_Thicker_N.tga using Guid(1ea102c0375a133428a21a6feb932759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb267af4bdf892ce8149928710085537') in 0.013038 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Samples/GrassWind/Textures/ScatteredStones_rmsih0p/ScatteredStones_rmsih0p_Normal.tif
-  artifactKey: Guid(09891065d729b4645b4cf672ef380fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind/Textures/ScatteredStones_rmsih0p/ScatteredStones_rmsih0p_Normal.tif using Guid(09891065d729b4645b4cf672ef380fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037fc7945bb91d1475738271471b5291') in 0.014680 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Packages/com.unity.visualeffectgraph/Textures/Noise.tga
-  artifactKey: Guid(1d8481de16af723418a688958c41224b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.visualeffectgraph/Textures/Noise.tga using Guid(1d8481de16af723418a688958c41224b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705b8fa7e8c101205414730891c42e5f') in 0.013386 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Samples/GrassWind/Textures/Grass_pe1jvwp0/Grass_pe1jvwp0_Albedo.tif
-  artifactKey: Guid(3bfc82ddb8272404aa836168b0ee9f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind/Textures/Grass_pe1jvwp0/Grass_pe1jvwp0_Albedo.tif using Guid(3bfc82ddb8272404aa836168b0ee9f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad52feb0d23ceab1904ec6b4138b34c5') in 0.013815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Samples/Common/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanOcclusion.png
-  artifactKey: Guid(4e2f32e9a1fefc24092337ae061f3dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Common/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanOcclusion.png using Guid(4e2f32e9a1fefc24092337ae061f3dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b15fb01218cfa06a86ab19a2bb2bdc4') in 0.016335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Samples/GrassWind/TerrainMaterials/GrassDried.terrainlayer
-  artifactKey: Guid(4ef695671a66d024da950b137f7edfe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind/TerrainMaterials/GrassDried.terrainlayer using Guid(4ef695671a66d024da950b137f7edfe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b61cc5f48803a1734fa6516d2fd1faa') in 0.018530 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Samples/GrassWind/Textures/FloorSticks_olsgr/FloorSticks_olsgr_Albedo.tif
-  artifactKey: Guid(cebf95bd26a72864cb65e6ae13268e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind/Textures/FloorSticks_olsgr/FloorSticks_olsgr_Albedo.tif using Guid(cebf95bd26a72864cb65e6ae13268e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e0bb6a2f1ed31c4b686aa24006f025') in 0.018022 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/GrassWind/Samples-GrassWind.pcache
+  artifactKey: Guid(197a881ae2a73b7478cb2f371ecfa61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/GrassWind/Samples-GrassWind.pcache using Guid(197a881ae2a73b7478cb2f371ecfa61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c993760f8706c9a67a3ebd6cebe9903') in 0.037643 seconds 

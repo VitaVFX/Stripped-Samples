@@ -11,13 +11,13 @@ C:\Program Files\Unity\2021.2.10f1_ee872746220e\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/vita.skruibyte/Documents/Projects/VisualEffectGraph-Samples
+C:/Users/vita.skruibyte/Desktop/Stripped-Samples
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53655
-Successfully changed project path to: C:/Users/vita.skruibyte/Documents/Projects/VisualEffectGraph-Samples
-C:/Users/vita.skruibyte/Documents/Projects/VisualEffectGraph-Samples
+53121
+Successfully changed project path to: C:/Users/vita.skruibyte/Desktop/Stripped-Samples
+C:/Users/vita.skruibyte/Desktop/Stripped-Samples
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,11 +47,11 @@ C:/Users/vita.skruibyte/Documents/Projects/VisualEffectGraph-Samples
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 81.79 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 68.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.10f1 (ee872746220e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/2021.2.10f1_ee872746220e/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/vita.skruibyte/Documents/Projects/VisualEffectGraph-Samples/Assets
+[Subsystems] Discovering subsystems at path C:/Users/vita.skruibyte/Desktop/Stripped-Samples/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -63,87 +63,87 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/2021.2.10f1_ee872746220e/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/2021.2.10f1_ee872746220e/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/2021.2.10f1_ee872746220e/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/2021.2.10f1_ee872746220e/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002448 seconds.
+Registered in 0.002948 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 76.72 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 60.78 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.547 seconds
+- Completed reload, in  0.548 seconds
 Domain Reload Profiling:
-	ReloadAssembly (547ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (549ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (423ms)
-			LoadAssemblies (58ms)
+		EndReloadAssembly (415ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (98ms)
+			SetupTypeCache (103ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (252ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (240ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (77ms)
+				RefreshPlugins (61ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (122ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002050 seconds.
+Registered in 0.002102 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 85.17 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 63.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.241 seconds
+- Completed reload, in  1.258 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1242ms)
-		BeginReloadAssembly (119ms)
+	ReloadAssembly (1259ms)
+		BeginReloadAssembly (108ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (1032ms)
-			LoadAssemblies (65ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1066ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (195ms)
+			SetupTypeCache (192ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (663ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (699ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (85ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (446ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (489ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4077 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (3.8 MB). Loaded Objects now: 4531.
-Memory consumption went from 237.2 MB to 233.4 MB.
-Total: 5.251700 ms (FindLiveObjects: 0.483300 ms CreateObjectMapping: 0.446900 ms MarkObjects: 3.405200 ms  DeleteObjects: 0.915300 ms)
+Unloading 4027 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (3.8 MB). Loaded Objects now: 4480.
+Memory consumption went from 231.2 MB to 227.4 MB.
+Total: 5.956000 ms (FindLiveObjects: 0.719400 ms CreateObjectMapping: 0.729700 ms MarkObjects: 3.529800 ms  DeleteObjects: 0.975200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -157,31 +157,82 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1102215.810900 seconds.
-  path: Assets/SphereTest.vfx
-  artifactKey: Guid(13b57193c917fce4cb5c92eb32d69d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SphereTest.vfx using Guid(13b57193c917fce4cb5c92eb32d69d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
- -> (artifact id: 'e40988739537fc773c2d96894c9b349a') in 16.720124 seconds 
+  Time since last request: 1108431.320280 seconds.
+  path: Assets/VFXDefaultResources.asset
+  artifactKey: Guid(b84c2cb6e004dad46bca40ad9da5a211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFXDefaultResources.asset using Guid(b84c2cb6e004dad46bca40ad9da5a211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ca88f42a9016f2a4609de35795d553') in 0.051574 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 216.467458 seconds.
+  Time since last request: 24.284789 seconds.
+  path: Assets/SampleLoader
+  artifactKey: Guid(2d98657199fa8464e8e659fcbcdceb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleLoader using Guid(2d98657199fa8464e8e659fcbcdceb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f67eca95c9a342abe82bf00801cb7ab') in 0.005449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.331330 seconds.
   path: Assets/Samples
   artifactKey: Guid(f15caaf08200bce4f9d37cd88a3e685e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples using Guid(f15caaf08200bce4f9d37cd88a3e685e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6b3f70e284ad0711c033744a6b254d') in 0.011739 seconds 
+Start importing Assets/Samples using Guid(f15caaf08200bce4f9d37cd88a3e685e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6b3f70e284ad0711c033744a6b254d') in 0.005891 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.503638 seconds.
+  Time since last request: 1.102836 seconds.
+  path: Assets/Samples/Meteorite
+  artifactKey: Guid(8572878aa7108fa498edc24473b3a822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Meteorite using Guid(8572878aa7108fa498edc24473b3a822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a167d88292dbaa8206efa1a27a8115e') in 0.006318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036002 seconds.
+  path: Assets/Samples/Meteorite/Light.prefab
+  artifactKey: Guid(2bab0d0f3c835f949aa46d6e567d1807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Meteorite/Light.prefab using Guid(2bab0d0f3c835f949aa46d6e567d1807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad89094d8b956eba6371d3ba7e2df24') in 0.035328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Meteorite/Meteorite_PostProcess.asset
+  artifactKey: Guid(982e6955608d8a34ab0314724b5f9e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Meteorite/Meteorite_PostProcess.asset using Guid(982e6955608d8a34ab0314724b5f9e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e07fb76575e127cb9e603276347c5e') in 0.015085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Samples/Meteorite/MeteoriteTimeline.playable
+  artifactKey: Guid(a4aeeb14d4463ae4f953869be5d5f41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Meteorite/MeteoriteTimeline.playable using Guid(a4aeeb14d4463ae4f953869be5d5f41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfc13aff2fa8b3b09655bed85846bec') in 0.016775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.329322 seconds.
   path: Assets/Samples/GrassWind
   artifactKey: Guid(c5028c0a077e0674a8ad4ce95422fbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind using Guid(c5028c0a077e0674a8ad4ce95422fbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2302f5e11636f1730ff503df558875') in 0.006285 seconds 
+Start importing Assets/Samples/GrassWind using Guid(c5028c0a077e0674a8ad4ce95422fbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2302f5e11636f1730ff503df558875') in 0.006522 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.040095 seconds.
+  Time since last request: 0.149427 seconds.
   path: Assets/Samples/GrassWind/Environment_GrassWind.vfx
   artifactKey: Guid(8e3162b55d5df384496e1f87759911da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind/Environment_GrassWind.vfx using Guid(8e3162b55d5df384496e1f87759911da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008fa131330ca322a33efe3d88256bf8') in 3.229349 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Start importing Assets/Samples/GrassWind/Environment_GrassWind.vfx using Guid(8e3162b55d5df384496e1f87759911da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.28 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.37 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.71 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.75 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.73 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 1.02 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.49 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.74 seconds
+ -> (artifact id: '1915305a9df17a495e08a5e8f5012298') in 35.857619 seconds 

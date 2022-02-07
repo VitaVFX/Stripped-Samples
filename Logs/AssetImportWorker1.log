@@ -11,13 +11,13 @@ C:\Program Files\Unity\2021.2.10f1_ee872746220e\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/vita.skruibyte/Documents/Projects/VisualEffectGraph-Samples
+C:/Users/vita.skruibyte/Desktop/Stripped-Samples
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53655
-Successfully changed project path to: C:/Users/vita.skruibyte/Documents/Projects/VisualEffectGraph-Samples
-C:/Users/vita.skruibyte/Documents/Projects/VisualEffectGraph-Samples
+53121
+Successfully changed project path to: C:/Users/vita.skruibyte/Desktop/Stripped-Samples
+C:/Users/vita.skruibyte/Desktop/Stripped-Samples
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,11 +47,11 @@ C:/Users/vita.skruibyte/Documents/Projects/VisualEffectGraph-Samples
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 82.01 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 60.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.10f1 (ee872746220e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/2021.2.10f1_ee872746220e/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/vita.skruibyte/Documents/Projects/VisualEffectGraph-Samples/Assets
+[Subsystems] Discovering subsystems at path C:/Users/vita.skruibyte/Desktop/Stripped-Samples/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -63,87 +63,87 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/2021.2.10f1_ee872746220e/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/2021.2.10f1_ee872746220e/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/2021.2.10f1_ee872746220e/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/2021.2.10f1_ee872746220e/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002466 seconds.
+Registered in 0.002385 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 75.00 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 57.86 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.552 seconds
+- Completed reload, in  0.554 seconds
 Domain Reload Profiling:
-	ReloadAssembly (552ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (555ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (425ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (406ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (99ms)
+			SetupTypeCache (97ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (249ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (234ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (75ms)
+				RefreshPlugins (58ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (121ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002108 seconds.
+Registered in 0.002230 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 84.85 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 125.75 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.262 seconds
+- Completed reload, in  1.995 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1263ms)
-		BeginReloadAssembly (114ms)
+	ReloadAssembly (1996ms)
+		BeginReloadAssembly (232ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (1054ms)
-			LoadAssemblies (62ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (1609ms)
+			LoadAssemblies (122ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (197ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (683ms)
+			SetupTypeCache (377ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (143ms)
+			SetupLoadedEditorAssemblies (906ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (85ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (456ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (126ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (569ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4077 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (3.8 MB). Loaded Objects now: 4531.
-Memory consumption went from 237.2 MB to 233.4 MB.
-Total: 5.250000 ms (FindLiveObjects: 0.470600 ms CreateObjectMapping: 0.248600 ms MarkObjects: 3.363300 ms  DeleteObjects: 1.166600 ms)
+Unloading 4027 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (3.8 MB). Loaded Objects now: 4480.
+Memory consumption went from 231.2 MB to 227.4 MB.
+Total: 7.955500 ms (FindLiveObjects: 0.597900 ms CreateObjectMapping: 0.348200 ms MarkObjects: 5.603300 ms  DeleteObjects: 1.404300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -157,49 +157,40 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1102215.811540 seconds.
-  path: Assets/VFXDefaultResources.asset
-  artifactKey: Guid(b84c2cb6e004dad46bca40ad9da5a211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFXDefaultResources.asset using Guid(b84c2cb6e004dad46bca40ad9da5a211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ca88f42a9016f2a4609de35795d553') in 0.102763 seconds 
+  Time since last request: 1108457.175645 seconds.
+  path: Assets/Samples/Meteorite/Meteorite_BufferREnder.renderTexture
+  artifactKey: Guid(c15d949f127daef49a42e9f39e427433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Meteorite/Meteorite_BufferREnder.renderTexture using Guid(c15d949f127daef49a42e9f39e427433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c8d07ee36d95f8ffb61490dc8045cf') in 0.092424 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 240.669612 seconds.
+  Time since last request: 1.486078 seconds.
   path: Assets/Samples/GrassWind/Grass.vfx
   artifactKey: Guid(65fa6e56e3e53cd44aac3bf1e314abf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind/Grass.vfx using Guid(65fa6e56e3e53cd44aac3bf1e314abf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Start importing Assets/Samples/GrassWind/Grass.vfx using Guid(65fa6e56e3e53cd44aac3bf1e314abf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
- -> (artifact id: '8949f7e96ef12d7994e8001f41865c52') in 2.876505 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Samples/GrassWind/GrassWind.asset
-  artifactKey: Guid(0d8320dd16c3e6345a96cb531f7cb6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind/GrassWind.asset using Guid(0d8320dd16c3e6345a96cb531f7cb6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c96b8e400419a661ba45e99d0051ed1') in 0.062391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Samples/GrassWind/GrassWind.unity
-  artifactKey: Guid(61f1ef70099d9034881b5619b161a5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind/GrassWind.unity using Guid(61f1ef70099d9034881b5619b161a5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0527f6432a8c31887a97a56cd1645b05') in 0.008691 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Samples/GrassWind/GrassWind_PostProcess.asset
-  artifactKey: Guid(99390ccb1ca0de54e811dcb31321a1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind/GrassWind_PostProcess.asset using Guid(99390ccb1ca0de54e811dcb31321a1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45e0f2c3da568e26163b03de3a5baf9') in 0.011145 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Samples/GrassWind/GrassWind_SceneSettings.asset
-  artifactKey: Guid(27b2b37e9dc9b2446acbda209450a2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind/GrassWind_SceneSettings.asset using Guid(27b2b37e9dc9b2446acbda209450a2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84834f9f8d693d7d605d5ad835906e20') in 0.012265 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Samples/GrassWind/Samples-GrassWind.pcache
-  artifactKey: Guid(197a881ae2a73b7478cb2f371ecfa61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/GrassWind/Samples-GrassWind.pcache using Guid(197a881ae2a73b7478cb2f371ecfa61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c993760f8706c9a67a3ebd6cebe9903') in 0.044604 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.33 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.63 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.67 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.79 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 1.11 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.58 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.59 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.69 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.92 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.32 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.32 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.31 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.35 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.89 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.28 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.37 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.75 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.44 seconds
+ -> (artifact id: 'dd9396fc5f2beb8475a68ced8a9afe5d') in 34.223193 seconds 
