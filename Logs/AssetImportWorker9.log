@@ -1,0 +1,245 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.10f1 (ee872746220e) revision 15632167'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.18363) 64bit Enterprise' Language: 'en' Physical Memory: 65244 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\2021.2.10f1_ee872746220e\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+C:/Users/vita.skruibyte/Documents/Projects/VisualEffectGraph-Samples
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+53655
+Successfully changed project path to: C:/Users/vita.skruibyte/Documents/Projects/VisualEffectGraph-Samples
+C:/Users/vita.skruibyte/Documents/Projects/VisualEffectGraph-Samples
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 90.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.10f1 (ee872746220e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2021.2.10f1_ee872746220e/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/vita.skruibyte/Documents/Projects/VisualEffectGraph-Samples/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   NVIDIA
+    VRAM:     8011 MB
+    Driver:   30.0.14.7141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/2021.2.10f1_ee872746220e/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/2021.2.10f1_ee872746220e/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/2021.2.10f1_ee872746220e/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/2021.2.10f1_ee872746220e/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004402 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 86.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.718 seconds
+Domain Reload Profiling:
+	ReloadAssembly (718ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (509ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (122ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (303ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (86ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002387 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 93.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.398 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1399ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1197ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (811ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (529ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4086 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (3.5 MB). Loaded Objects now: 4564.
+Memory consumption went from 243.6 MB to 240.1 MB.
+Total: 4.945200 ms (FindLiveObjects: 0.494400 ms CreateObjectMapping: 0.241200 ms MarkObjects: 3.386800 ms  DeleteObjects: 0.821200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1103283.755556 seconds.
+  path: Assets/Samples/Meteorite/Materials/GlowSphere.mat
+  artifactKey: Guid(8c10e1c6fd1f16b4797bf1fb230d45e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Meteorite/Materials/GlowSphere.mat using Guid(8c10e1c6fd1f16b4797bf1fb230d45e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a198c724429b4efcdab7c795971eca2') in 1.001602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Samples/EllenSkinnedMesh/Effects/WaterSampling.vfx
+  artifactKey: Guid(f58e877356bf7484ab7a390acacead68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/EllenSkinnedMesh/Effects/WaterSampling.vfx using Guid(f58e877356bf7484ab7a390acacead68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '473a0a773a1e696011929f7ada98fb05') in 6.141538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.088034 seconds.
+  path: Assets/Samples/Common/Textures/White.psd
+  artifactKey: Guid(d168f78b86e42e64c921e9f6add78047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Common/Textures/White.psd using Guid(d168f78b86e42e64c921e9f6add78047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff9966e290c5fcc943602799a00c33ea') in 0.033590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Samples/Meteorite/Meshes/Meteorite.fbx
+  artifactKey: Guid(8d86d36950adcef458e08aeb1e78c94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Meteorite/Meshes/Meteorite.fbx using Guid(8d86d36950adcef458e08aeb1e78c94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da2560b5056a48eb3fdb274486f98c7') in 0.100270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Samples/Meteorite/MeteoriteSample/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(38ae38674379d0541a562a4b6639c09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Meteorite/MeteoriteSample/Lightmap-1_comp_shadowmask.png using Guid(38ae38674379d0541a562a4b6639c09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1213319b79f567107933fadc020bf3bf') in 0.033019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Samples/Meteorite/MeteoriteSample/Lightmap-2_comp_light.exr
+  artifactKey: Guid(b25e7b5395b51af42b082cf98f797bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Meteorite/MeteoriteSample/Lightmap-2_comp_light.exr using Guid(b25e7b5395b51af42b082cf98f797bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36be308dba19cae206d0747d19d49f55') in 0.046984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Samples/Meteorite/MeteoriteSample/Lightmap-4_comp_shadowmask.png
+  artifactKey: Guid(4d17030d6dff8e144b613d2c89f2712b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Meteorite/MeteoriteSample/Lightmap-4_comp_shadowmask.png using Guid(4d17030d6dff8e144b613d2c89f2712b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b82d45bbbeda93a759de8afe91d3d15') in 0.014241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Samples/Meteorite/MeteoriteSample/Lightmap-0_comp_light.exr
+  artifactKey: Guid(d57cd5d04289820499266b99172e5a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Meteorite/MeteoriteSample/Lightmap-0_comp_light.exr using Guid(d57cd5d04289820499266b99172e5a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78548ca69de7873c74b38ab2e542d4e4') in 0.015421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Samples/Meteorite/Materials/Textures/GroundDecal.png
+  artifactKey: Guid(f32b17fe3ade9464a998e809c09b0673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Meteorite/Materials/Textures/GroundDecal.png using Guid(f32b17fe3ade9464a998e809c09b0673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35eb64b2b666326731f71d83aaf202a') in 0.013615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Samples/Meteorite/MeteoriteSample/Lightmap-2_comp_dir.png
+  artifactKey: Guid(9058f32fcca22f24aaee716bfc8facd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Meteorite/MeteoriteSample/Lightmap-2_comp_dir.png using Guid(9058f32fcca22f24aaee716bfc8facd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a1cfade4827facaaa198878ee70913') in 0.014781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Samples/Meteorite/MeteoriteSample/Lightmap-6_comp_shadowmask.png
+  artifactKey: Guid(46f2c6179a568d2478853a147f2f77d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Meteorite/MeteoriteSample/Lightmap-6_comp_shadowmask.png using Guid(46f2c6179a568d2478853a147f2f77d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4f0516a577528077cd1770450d82fa') in 0.014441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Samples/Meteorite/MeteoriteSample/Lightmap-8_comp_dir.png
+  artifactKey: Guid(d341c065f2f11e44d9c0948a16c542b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Meteorite/MeteoriteSample/Lightmap-8_comp_dir.png using Guid(d341c065f2f11e44d9c0948a16c542b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f2143a523fe19bc0ee67b26390e515') in 0.017351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Samples/Meteorite/Materials/Textures/MeteorBlastMeshAlpha.png
+  artifactKey: Guid(b8637b7a9fec51f4c956e62780d3e4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Meteorite/Materials/Textures/MeteorBlastMeshAlpha.png using Guid(b8637b7a9fec51f4c956e62780d3e4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '818adafb39086e7580134d7616fa93ec') in 0.013955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Samples/Meteorite/Materials/Textures/Circle.psd
+  artifactKey: Guid(a86f2ba2624db734abeab00334cc06cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Meteorite/Materials/Textures/Circle.psd using Guid(a86f2ba2624db734abeab00334cc06cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdedc97c8e4df853dc9d8c1d8c2aafe7') in 0.012710 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
